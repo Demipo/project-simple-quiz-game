@@ -1,0 +1,21 @@
+{
+    "questions":[
+        {
+            "question": "When did NNigeria become independent?",
+            "optionOne": "1960",
+            "optionTwo": "1978",
+            "optionThree": "1925",
+            "optionFour": "1900"        
+        }
+    ],
+    "upload": [
+        {
+            "question": "",
+            "optionOne": "",
+            "optionTwo": "",
+            "optionThree": "",
+            "optionFour": ""
+        }
+    ],
+    "score": 0
+}

@@ -8,7 +8,7 @@
             "optionFour": "1900"        
         }
     ],
-    "upload": [
+    "uploads": [
         {
             "question": "",
             "optionOne": "",
@@ -17,5 +17,5 @@
             "optionFour": ""
         }
     ],
-    "score": [0]
+    "scores": [0]
 }

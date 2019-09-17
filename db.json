@@ -1,11 +1,21 @@
 {
+    "users":[
+        {
+            "username": "demipo",
+            "email": "beronad@gmail.com",
+            "password": "qwerty@123",
+            "id": 1
+
+        }
+    ],
     "questions":[
         {
             "question": "When did NNigeria become independent?",
             "optionOne": "1960",
             "optionTwo": "1978",
             "optionThree": "1925",
-            "optionFour": "1900"        
+            "optionFour": "1900",
+            "id": 1     
         }
     ],
     "upload": [

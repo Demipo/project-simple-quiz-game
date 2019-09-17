@@ -1,4 +1,13 @@
 {
+  "users": [
+    {
+      "usename": "Demipo",
+      "password": "qweryit05",
+      "repeatPassword": "qweryit0519",
+      "email": "beronad@gmail.com",
+      "id": 1
+    }
+  ],
   "questions": [
     {
       "question": "When did NNigeria become independent?",
@@ -8,6 +17,7 @@
       "optionFour": "1900",
       "id": 1
     },
+  
     {
       "question": "afdgsg",
       "optionOne": "ikh;oi",

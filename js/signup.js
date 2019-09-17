@@ -11,7 +11,7 @@ $(document).ready(function() {
         $('.report').html('Passwords must be same');
       }
       //Check if user input is empty
-      if (!fullname || !username || !password || !email) {
+      if (!username || !email || !password || !repeatPassword) {
         $('.report').html('Kindly fill in all fields');
         return;
       }
@@ -39,7 +39,7 @@ $(document).ready(function() {
                 password,
               },
               beforeSend: function() {
-                $('.reporte').html('Loading....');
+                $('.report').html('Loading....');
               },
               success: function() {
                 $('.report').html('Registration Successfull');

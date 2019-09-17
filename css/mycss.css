@@ -1,0 +1,63 @@
+.topmost-div {
+    padding-bottom: 30px;
+   
+  }
+  .top-left-div {
+    width: 20%;
+    height: 5px;
+    float: left;
+    padding: 2px;
+    
+  }
+  .top-right-div {
+    width: 70%;
+    height: 5px;
+    float: left;
+    padding: 2px;
+    }
+  .homeNav {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #999;
+    
+  }
+  .center-div{
+    height: 60%;
+    text-align: center;
+    margin-top: 5%;
+  
+  }
+  
+  .homeNav ul {
+    text-align: right;
+  }
+  .homeNav ul li {
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  input{
+    width: 40%;
+    border-radius: 10px;
+    height: 30px;
+  }
+  .dot{
+    width: 30px;
+    height: 30px;
+  }
+  button {
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(41, 128, 0);
+    height: 40px;
+    width: 100px;
+  }
+  h3{
+    display: inline;
+  }
+  footer{
+    margin-top: 30%;
+    text-align: center;
+  }
+  

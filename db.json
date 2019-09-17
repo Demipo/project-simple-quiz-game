@@ -1,21 +1,25 @@
 {
-    "questions":[
-        {
-            "question": "When did NNigeria become independent?",
-            "optionOne": "1960",
-            "optionTwo": "1978",
-            "optionThree": "1925",
-            "optionFour": "1900"        
-        }
-    ],
-    "uploads": [
-        {
-            "question": "",
-            "optionOne": "",
-            "optionTwo": "",
-            "optionThree": "",
-            "optionFour": ""
-        }
-    ],
-    "scores": [0]
+  "questions": [
+    {
+      "question": "When did NNigeria become independent?",
+      "optionOne": "1960",
+      "optionTwo": "1978",
+      "optionThree": "1925",
+      "optionFour": "1900",
+      "id": 1
+    },
+    {
+      "question": "afdgsg",
+      "optionOne": "ikh;oi",
+      "optionTwo": "h;oh;oih",
+      "optionThree": "ih;oihip",
+      "optionFour": "ih;oih;oil",
+      "answer": "ioio",
+      "id": 2
+    }
+  ],
+  "uploads": [],
+  "scores": [
+    0
+  ]
 }

@@ -28,16 +28,18 @@
                 <emp>All the fields below must be filled</emp>. Thanks.
             </p>
             <form>
-                    <input class="question" type="text" placeholder="Enter your question here" required><br><br>
-                    <input class="option" type="text" placeholder="Enter option one here" required><br><br>
-                    <input class="option" type="text" placeholder="Enter yoption two here" required><br><br>
-                    <input class="option" type="text" placeholder="Enter option three here" required><br><br>
-                    <input class="option" type="text" placeholder="Enter option four here" required><br><br>
-                    <input class="option" type="text" placeholder="Enter the correct option here, example A,B... " required><br><br>
-                    <button type="button">Submit</button> 
+                    <input id="question" type="text" placeholder="Enter your question here" ><br><br>
+                    <input id="optionOne" type="text" placeholder="Enter option one here" ><br><br>
+                    <input id="optionTwo" type="text" placeholder="Enter yoption two here" ><br><br>
+                    <input id="optionThree" type="text" placeholder="Enter option three here" ><br><br>
+                    <input id="optionFour" type="text" placeholder="Enter option four here" ><br><br>
+                    <input id="answer" type="text" placeholder="Enter the correct option here, example A,B... "><br><br>
+                    <p class="uploadMessage"></p><br><br>
+                    <button class="submitButton" type="button">Submit</button> 
             </form>
         </div>
     </main>
+    <script src="./js/jquery.js"></script>
     <script src="./js/myjs.js"></script>
 </body>
 <footer>Copyright &copy;</footer>

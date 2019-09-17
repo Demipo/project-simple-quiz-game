@@ -64,6 +64,11 @@
   h3{
     display: inline;
   }
+  .signin-form{
+    max-width: 400px;
+    margin: 50px auto auto auto;
+    text-align: center;  
+}
   footer{
     margin-top: 30%;
     text-align: center;

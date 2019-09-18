@@ -17,7 +17,7 @@ $(document).ready(function() {
           password: passwordLogin,
         },
         beforeSend: function() {
-          $('.repoort').html('Loading....');
+          $('.report').html('Loading....');
         },
         success: function(response) {
           if (response.length) {

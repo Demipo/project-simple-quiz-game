@@ -1,7 +1,4 @@
 $(document).ready(function() { 
-
-               
-
     $(".playButton").click(function(event){ 
         $.getJSON('http:localhost:3000/questions', function(quest) {  
            $.each(quest, function(key, value) {
@@ -19,6 +16,11 @@ $(document).ready(function() {
         })
 
         $("#header").text("Have fun!!");
+        $(this).html("Submit");
     })  
+
+    $(".playButton").click(function(event){ 
+        $.each(quest, function(key, value) {
         
-    }); 
+        
+  });

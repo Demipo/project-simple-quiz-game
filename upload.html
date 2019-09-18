@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="./css/mycss.css" />
-  <title>Simple-Quiz-Game/quizes</title>
+  <title>Simple-Quiz-Game</title>
 </head>
 
 <body>
-    <div><h3>Simple-Quiz-Game</h3></div>
+    <div><h3>Simple-Quiz-Game/upload</h3></div>
     <div>
     <nav class="homeNav">
       <ul>
@@ -28,16 +28,18 @@
                 <emp>All the fields below must be filled</emp>. Thanks.
             </p>
             <form>
-                    
-                    <h3>Q</h3><h3 id="question-number">1</h3><br>
-                    <input class="dot" type="radio" name="option" value="A"> <br>
-                    <input class="dot" type="radio" name="option" value="B"> <br>
-                    <input class="dot" type="radio" name="option" value="C"> <br>
-                    <input class="dot" type="radio" name="option" value="D"> <br>
-                    <button type="button">Submit</button> 
+                    <input id="question" type="text" placeholder="Enter your question here" ><br><br>
+                    <input id="optionOne" type="text" placeholder="Enter option one here" ><br><br>
+                    <input id="optionTwo" type="text" placeholder="Enter yoption two here" ><br><br>
+                    <input id="optionThree" type="text" placeholder="Enter option three here" ><br><br>
+                    <input id="optionFour" type="text" placeholder="Enter option four here" ><br><br>
+                    <input id="answer" type="text" placeholder="Enter the correct option here, example A,B... "><br><br>
+                    <p class="uploadMessage"></p><br><br>
+                    <button class="submitButton" type="button">Submit</button> 
             </form>
         </div>
     </main>
+    <script src="./js/jquery.js"></script>
     <script src="./js/myjs.js"></script>
 </body>
 <footer>Copyright &copy;</footer>

@@ -1,31 +1,41 @@
 {
-    "users":[
-        {
-            "username": "demipo",
-            "email": "beronad@gmail.com",
-            "password": "qwerty@123",
-            "id": 1
 
-        }
-    ],
-    "questions":[
-        {
-            "question": "When did NNigeria become independent?",
-            "optionOne": "1960",
-            "optionTwo": "1978",
-            "optionThree": "1925",
-            "optionFour": "1900",
-            "id": 1     
-        }
-    ],
-    "upload": [
-        {
-            "question": "",
-            "optionOne": "",
-            "optionTwo": "",
-            "optionThree": "",
-            "optionFour": ""
-        }
-    ],
-    "score": 0
+  "users": [
+    {
+      "usename": "Demipo",
+      "password": "qweryit05",
+      "repeatPassword": "qweryit0519",
+      "email": "beronad@gmail.com",
+      "id": 1
+    },
+    {
+      "username": "demipo",
+      "email": "saved@gmail.com",
+      "password": "1234",
+      "id": 2
+    }
+  ],
+  "questions": [
+    {
+      "question": "When did NNigeria become independent?",
+      "optionOne": "1960",
+      "optionTwo": "1978",
+      "optionThree": "1925",
+      "optionFour": "1900",
+      "id": 1
+    },
+    {
+      "question": "afdgsg",
+      "optionOne": "ikh;oi",
+      "optionTwo": "h;oh;oih",
+      "optionThree": "ih;oihip",
+      "optionFour": "ih;oih;oil",
+      "answer": "ioio",
+      "id": 2
+    }
+  ],
+  "uploads": [],
+  "scores": [
+    0
+  ]
 }

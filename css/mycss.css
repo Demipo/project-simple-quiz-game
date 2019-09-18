@@ -22,7 +22,7 @@
     
   }
   .center-div{
-    height: 60%;
+    height: 40%;
     text-align: center;
     margin-top: 5%;
   
@@ -49,13 +49,26 @@
   button {
     text-align: center;
     border-radius: 5px;
-    background-color: rgb(41, 128, 0);
+    background-color: #fff;
     height: 40px;
     width: 100px;
+    margin-top: 5%
+  }
+  .signin {
+    margin-right: 100px;
+  }
+  .button-div{
+    text-align: center;
+    padding: 50px;
   }
   h3{
     display: inline;
   }
+  .signin-form{
+    max-width: 400px;
+    margin: 50px auto auto auto;
+    text-align: center;  
+}
   footer{
     margin-top: 30%;
     text-align: center;

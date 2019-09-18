@@ -17,17 +17,17 @@ $(document).ready(function() {
           password: passwordLogin,
         },
         beforeSend: function() {
-          $('.regMessage').html('Loading....');
+          $('.repoort').html('Loading....');
         },
         success: function(response) {
           if (response.length) {
-            $('.regMessage').html('Login sucessful');
+            $('.report').html('Login sucessful');
             $('.checkLogin').html('You are logged in');
             localStorage.setItem('email', emailLogin);
             //redirect to home page if the login is successfull
             window.location.assign('index.html');
           } else {
-            $('.regMessage').html('Username or password Incorrect');
+            $('.report').html('Username or password Incorrect');
           }
         },
       });

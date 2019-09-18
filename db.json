@@ -6,6 +6,12 @@
       "repeatPassword": "qweryit0519",
       "email": "beronad@gmail.com",
       "id": 1
+    },
+    {
+      "username": "demipo",
+      "email": "saved@gmail.com",
+      "password": "1234",
+      "id": 2
     }
   ],
   "questions": [
@@ -17,7 +23,6 @@
       "optionFour": "1900",
       "id": 1
     },
-  
     {
       "question": "afdgsg",
       "optionOne": "ikh;oi",

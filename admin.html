@@ -24,24 +24,33 @@
 
     <main class="main-content">
         <div class="center-div">
-           
-            <form>
-                
-                                <a href="upload.html"><button class="createQuestionButton" type="button">Create Question</button></a><br><br>
-                
-
-                                <input class="numberToUpdate" type="text" placeholder="Enter the question number to be updated"/>
-                                <button class="updateQuestionButton" type="button">Delete Question</button><br><br><br><br>
-                   
-        
-                                        <input class="numberToDelete" type="text" placeholder="Enter the question number to be deleted"/>
-                                        <button class="deleteQuestionButton" type="button">Delete Question</button>
+            <fieldset>
+                <legend>Create Question</legend>
+                    <p>Click on the button below to add question to existing questions</p>
+                    <a href="upload.html"><button class="createQuestionButton" type="button">Create Question</button></a><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Update Question</legend>
+                    <input class="numberToUpdate" type="text" placeholder="Enter the question number to be updated"/><br><br>
+                    <input id="question" type="text" placeholder="Enter your question here" ><br><br>
+                    <input id="optionOne" type="text" placeholder="Enter option one here" ><br><br>
+                    <input id="optionTwo" type="text" placeholder="Enter yoption two here" ><br><br>
+                    <input id="optionThree" type="text" placeholder="Enter option three here" ><br><br>
+                    <input id="optionFour" type="text" placeholder="Enter option four here" ><br><br>
+                    <input id="answer" type="text" placeholder="Enter the correct option here, example A,B... "><br><br>
+                    <button class="updateQuestionButton" type="button">Update Question</button>
+            </fieldset>
+            <fieldset>
+                <legend>Delete Question</legend>
+                    <input class="numberToDelete" itype="text" placeholder="Enter the question number to be deleted"/>
+                    <button class="deleteQuestionButton" type="button">Delete Question</button>
+            </fieldset>
                            
-            </form>
         </div>
     </main>
         <script src="./js/jquery.js"></script>
-        <script src="./js/adminjs.js"></script>
+        <script src="./js/update.js"></script>
+        <script src="./js/delete.js"></script>
 </body>
 <footer>Copyright &copy;</footer>
 

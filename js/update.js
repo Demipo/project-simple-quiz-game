@@ -17,7 +17,7 @@ $(document).ready(function() {
             //Submit the user data if the user does  exist
             $.ajax({
               method: 'PATCH',
-              url: 'http://localhost:3000/questions/id',
+              url: `http://localhost:3000/questions/${id}`,
               data: {
                 question,
                 optionOne,

@@ -1,6 +1,8 @@
 $(document).ready(function() { 
+    let score = 0;
     //Populates the quizes.html page with the available questions in db.json, on clicking the play btn 
     $(".playButton").click(function(event){ 
+        $("#submitButton").show(); 
         $.getJSON('http:localhost:3000/questions', function(quest) {  
            $.each(quest, function(key, value) {
                 const display =
@@ -11,14 +13,28 @@ $(document).ready(function() {
                     <input class="dot" type="radio" name="option${value.id}" value="C">${value.optionThree}
                     <input class="dot" type="radio" name="option${value.id}" value="D">${value.optionFour}
                     <hr class="crossLine">`;
-            $(".form1").append(display)
+            $(".generatedQuestions").append(display)
+            
        })
-       const buttonSubmit = `<button type="button" value="submit">Submit</button> `
-       $(".center-div").append(buttonSubmit);   
+        
         })
-
         $("#header").text("Have fun!!").css("font-size","30px"); //changes and boldens the header text
-        $(this).hide();                                          //hides the play now button
-        $(".crossLine").css("width", "20px");
-    })    
+        $(this).hide();                                          //hides the play now button                                       
+    })
+
+        //Actions for the submit button. Click to submit answer.
+        $("#submitButton").click(function(event){ 
+            event.preventDefault();
+            $.getJSON('http:localhost:3000/questions', function(quest) {  
+                $.each(quest, function(key, value) {
+                    let radioButtonSelected = $(`input[name=option${value.id}]:checked`).val();
+                    console.log(radioButtonSelected);
+                    if(value.answer === radioButtonSelected){
+                        score++
+                    }
+                 })
+                 alert(`Well done, your scored: ${score}`);
+             })
+            
+        })
   });

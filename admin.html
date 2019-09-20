@@ -17,33 +17,49 @@
         <a href="index.html"><li>Home</li></a>
         <a href="quizes.html"><li>Quizes</li></a>
         <a href="upload.html"><li>Upload</li></a>
-        <a href="delete.html"><li>Delete</li></a>
+        <a href="about.html"><li>About</li></a>
+        <li>Sign Out</li>
       </ul>
     </nav>
     </div>
 
     <main class="main-content">
         <div class="center-div">
+            <h1>Simple-Quiz-Game Admin Page</h1>
             <fieldset>
                 <legend>Create Question</legend>
                     <p>Click on the button below to add question to existing questions</p>
                     <a href="upload.html"><button class="createQuestionButton" type="button">Create Question</button></a><br><br>
             </fieldset>
             <fieldset>
-                <legend>Update Question</legend>
-                    <input class="numberToUpdate" id="id" type="text" placeholder="Enter the question number to be updated"/><br><br>
-                    <input id="question" type="text" placeholder="Enter your question here" ><br><br>
-                    <input id="optionOne" type="text" placeholder="Enter option one here" ><br><br>
-                    <input id="optionTwo" type="text" placeholder="Enter yoption two here" ><br><br>
-                    <input id="optionThree" type="text" placeholder="Enter option three here" ><br><br>
-                    <input id="optionFour" type="text" placeholder="Enter option four here" ><br><br>
-                    <input id="answer" type="text" placeholder="Enter the correct option here, example A,B... "><br><br>
-                    <p class="report"></p>
-                    <button class="updateQuestionButton" type="button">Update Question</button>
+                <legend>View & Update Question</legend>
+                  <form class="updateForm">
+                    <div class="forClearView">
+                      <input class="numberToUpdate" id="id" type="text" placeholder="Enter the question number to be updated"/><br><br>
+                      <button class="viewQuestion" type="button">View</button><br><br>
+                      <input id="question" type="text" placeholder="Enter your question here" ><br><br>
+                      <input id="optionOne" type="text" placeholder="Enter option one here" ><br><br>
+                      <input id="optionTwo" type="text" placeholder="Enter yoption two here" ><br><br>
+                      <input id="optionThree" type="text" placeholder="Enter option three here" ><br><br>
+                      <input id="optionFour" type="text" placeholder="Enter option four here" ><br><br>
+                      <input id="answer" type="text" placeholder="Enter the correct option here, example A,B... "><br><br>
+                      <p class="report"></p>
+                   </div>
+                    <button class="updateQuestionButton" type="button">Update</button>
+                    <button class="clearFields" type="button">Clear</button>
+                  </form>
+            </fieldset>
+            <fieldset>
+                <legend>Admin Permission</legend>
+                    <input class="idForPermission" type="text" placeholder="Enter the id of user to grant an admin permission"/>
+                    <p class="permissionReport"></p>
+                    <button class="permissionButton" type="button">Grant</button>
+                    <button class="revokeButton" type="button">Revoke</button>
             </fieldset>
             <fieldset>
                 <legend>Delete Question</legend>
                     <input class="numberToDelete" itype="text" placeholder="Enter the question number to be deleted"/>
+                    <p class="deleteReport"></p>
                     <button class="deleteQuestionButton" type="button">Delete Question</button>
             </fieldset>
                            

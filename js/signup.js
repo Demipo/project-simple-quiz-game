@@ -37,12 +37,13 @@ $(document).ready(function() {
                 username,
                 email,
                 password,
+                isAdmin: false,
               },
               beforeSend: function() {
                 $('.report').html('Loading....');
               },
               success: function() {
-                $('.report').html('Registration Successfull');
+                $('.report').html('Registration Successful. You can now sign in to have fun');
               },
             });
           }

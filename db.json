@@ -5,18 +5,27 @@
       "password": "qweryit05",
       "repeatPassword": "qweryit0519",
       "email": "beronad@gmail.com",
+      "isAdmin": true,
       "id": 1
     },
     {
       "username": "demipo",
       "email": "saved@gmail.com",
       "password": "1234",
+      "isAdmin": false,
       "id": 2
+    },
+    {
+      "username": "temi",
+      "email": "topain@yahoo.com",
+      "password": "demitee",
+      "isAdmin": "false",
+      "id": 3
     }
   ],
   "questions": [
     {
-      "question": "When did NNigeria become independent?",
+      "question": "When did Nigeria become independent?",
       "optionOne": "1960",
       "optionTwo": "1978",
       "optionThree": "1925",
@@ -41,19 +50,6 @@
       "optionFour": "659994",
       "answer": "B",
       "id": 3
-    },
-    {
-      "question": "sdgaefhd",
-      "optionOne": "io;io",
-      "optionTwo": "h;oiio",
-      "optionThree": "iupou[h;",
-      "optionFour": "upopoup",
-      "answer": "C",
-      "id": 4
     }
-  ],
-  "uploads": [],
-  "scores": [
-    0
   ]
 }
